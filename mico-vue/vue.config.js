@@ -7,7 +7,7 @@ function resolve(dir) {
 
 const dev = process.env.NODE_ENV === 'development'
 
-const port = 0327; // dev port
+const port = 1024; // dev port
 
 module.exports = {
  publicPath: dev ? `//localhost:${port}` : '/',
