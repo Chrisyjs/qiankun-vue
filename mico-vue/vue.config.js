@@ -1,6 +1,6 @@
 const path = require('path');
 const packageName = require('./package').name;
-
+console.log(packageName, '123')  // mirco-vue
 function resolve(dir) {
   return path.join(__dirname, dir);
 }
